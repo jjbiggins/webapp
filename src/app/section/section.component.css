@@ -1,0 +1,25 @@
+.section-button {
+  font-size: 40px;
+  background-color: white;
+  border-style: none;
+  font-family: "Helvetica Neue";
+  border-radius: 5px;
+  height: 165px;
+  width: 100%;
+  color: white;
+  background-size: cover;
+  text-emphasis: white;
+  font-weight: bold;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px; }
+
+.section-button::after {
+  opacity: 0.4; }
+
+.section-button:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #b9bbbe;
+  opacity: 0.4; }
+
+/*# sourceMappingURL=section.component.css.map */

@@ -1,0 +1,29 @@
+app-section {
+  //border-style: solid;
+  background-color: white;
+  border-width: thin;
+  border-radius: 5px;
+  height: 165px;
+  font-family: "Helvetica Neue";
+  position: center;
+  width: 100%;
+  min-height: 1px;
+  flex: 0 0 48%;
+  max-width: 48%;
+  margin: 5px;
+  box-shadow: 2px 2px darkgray;
+}
+
+@media only screen and (max-width: 640px){
+  app-section{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;padding: 0px;
+  }
+
+}
+
+.row{
+  padding: 20px;
+}

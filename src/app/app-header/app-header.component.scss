@@ -1,0 +1,114 @@
+.navbar-sticky{
+  //background-color: #82c6d1;
+  //position: fixed;
+  height: 75px;
+  z-index: 75;
+  background-color: ghostwhite;
+}
+
+
+button::after{
+  opacity: 0.4;
+}
+
+button:hover {
+  opacity: 0.4;
+}
+
+.icon-column{
+  text-align: end;
+  padding: 20px;
+}
+
+.navbar{
+  height: 75px;
+  z-index: 75;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+  color: transparent;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
+}
+
+.sticky{
+  margin-left: 30px;
+  color: transparent;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.img-fluid{
+  align-self: center;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.github-white{
+  background-image: url('../../assets/img/github-white.png');
+}
+
+.linkedin-white{
+  background-image: url('../../assets/img/linkedin-white.png');
+}
+
+.github{
+  background-image: url('../../assets/img/github.png');
+}
+
+.linkedin{
+  background-image: url('../../assets/img/linkedin.png');
+}
+
+
+
+.header{
+  //position: absolute;
+  z-index: -999999;
+  top: 0;
+  //transition: top 0.5s ease-in-out;
+  width: 100%;
+}
+
+.header-sticky {
+  top: 0;
+  //transition: top 0.2s ease-in-out;
+  width: 100%;
+  //transform: translateY(-450px)
+}
+
+
+button{
+  height: 35px;
+  width: 35px;
+  border-style: none;
+  background-color: transparent;
+  background-size: 100%;
+  margin: 3px;
+}
+
+@media only screen and (max-width: 640px){
+  button{
+    height: 25px;
+    width: 25px;
+    border-style: none;
+    background-color: transparent;
+    background-size: 100%;
+    margin: 3px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  button{
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    background-color: transparent;
+    background-size: 100%;
+    margin: 1px;
+  }
+}
