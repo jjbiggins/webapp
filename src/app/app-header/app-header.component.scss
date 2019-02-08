@@ -30,7 +30,7 @@ button:hover {
   color: transparent;
   font-weight: bolder;
   -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: transparent;
 }
 
 .sticky{
@@ -43,7 +43,7 @@ button:hover {
 .img-fluid{
   align-self: center;
   padding: 0;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .github-white{
@@ -63,22 +63,66 @@ button:hover {
 }
 
 
-
 .header{
-  //position: absolute;
-  z-index: -999999;
-  top: 0;
-  //transition: top 0.5s ease-in-out;
-  width: 100%;
+  /* Sizing */
+ /* z-index: -999999;*/
+ /* top: 0;*/
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  font-family: "Samyak Devanagari";
+  font-size: 500px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
+  text-align: center;
+
+  /* Background styles */
+  background-image: url('../../assets/img/chicago_blue.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 
 .header-sticky {
   top: 0;
-  //transition: top 0.2s ease-in-out;
-  width: 100%;
-  //transform: translateY(-450px)
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  font-family: "Samyak Devanagari";
+  font-size: 500px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
+  text-align: center;
+
+  /* Background styles */
+  background-image: url('../../assets/img/chicago_blue.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+.header h1 {
+  /* Text styles */
+  font-size: 200px;
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
 
 button{
   height: 35px;
