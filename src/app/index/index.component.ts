@@ -14,7 +14,6 @@ export class IndexComponent implements OnInit {
     {text: 'UI Web Development', id: 'iowa', image: 'url("../../assets/img/iowa-football.jpeg")'},
     {text: 'Resume', id: 'resume', image: 'url("../../assets/img/work.jpg")'},
   ];
-  public summary = 'About Me';
   public header = {name: 'index', element: ''};
 
   ngOnInit() {
