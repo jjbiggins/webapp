@@ -1,4 +1,5 @@
 import {Component, HostListener, Input, OnInit} from '@angular/core';
+import {element} from 'protractor';
 
 @Component({
   selector: 'app-app-header',
@@ -23,6 +24,7 @@ export class AppHeaderComponent implements OnInit {
     const navbartext = document.getElementById('navbar-brand');
     const github = document.getElementById('github');
     const linkedin = document.getElementById('linkedin');
+    /*const hero = document.getElementById('hero');*/
     const verticalOffset = window.pageYOffset
       || document.getElementById('header').scrollTop
       || document.body.scrollTop || 0;
@@ -41,6 +43,7 @@ export class AppHeaderComponent implements OnInit {
       navbartext.className = 'navbar-brand';
       github.className = 'github-white';
       linkedin.className = 'linkedin-white';
+      /*hero.className = 'hero';*/
       document.body.removeAttribute('style');
     }
     this.changePos = this.currPos;

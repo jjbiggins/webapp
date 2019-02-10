@@ -3,7 +3,7 @@
   //position: fixed;
   height: 75px;
   z-index: 75;
-  background-color: ghostwhite;
+  background-color: white;
 }
 
 
@@ -40,10 +40,59 @@ button:hover {
   -webkit-text-stroke-color: black;
 }
 
-.img-fluid{
-  align-self: center;
-  padding: 0;
-  padding-bottom: 10px;
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  color: white;
+
+  /* Background styles */
+  background-image: url('../../assets/img/chicago_blue.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.hero h1{
+  /* Text styles */
+  font-size: 5em;
+
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.hero .btn {
+  /* Positioning and sizing */
+  display: block;
+  width: 200px;
+
+  background-color: white;
+
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  color: black; /* CHANGE THIS LINE */
+  text-decoration: none;
+  font-size: 1.5em;
+
+  /* Border styles */
+  border: 3px solid white; /* CHANGE THIS LINE */
+  border-radius: 20px;
 }
 
 .github-white{
@@ -64,65 +113,20 @@ button:hover {
 
 
 .header{
-  /* Sizing */
- /* z-index: -999999;*/
- /* top: 0;*/
-  width: 100vw;
-  height: 100vh;
-
-  /* Flexbox stuff */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* Text styles */
-  font-family: "Samyak Devanagari";
-  font-size: 500px;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: white;
-  text-align: center;
-
-  /* Background styles */
-  background-image: url('../../assets/img/chicago_blue.png');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  //position: absolute;
+  z-index: -999999;
+  top: 0;
+  //transition: top 0.5s ease-in-out;
+  width: 100%;
 }
-
 
 .header-sticky {
   top: 0;
-  width: 100vw;
-  height: 100vh;
-
-  /* Flexbox stuff */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* Text styles */
-  font-family: "Samyak Devanagari";
-  font-size: 500px;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: white;
-  text-align: center;
-
-  /* Background styles */
-  background-image: url('../../assets/img/chicago_blue.png');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  //transition: top 0.2s ease-in-out;
+  width: 100%;
+  //transform: translateY(-450px)
 }
 
-.header h1 {
-  /* Text styles */
-  font-size: 200px;
-  /* Margins */
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
 
 button{
   height: 35px;
