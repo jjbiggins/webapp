@@ -8,6 +8,7 @@ import { SectionListComponent } from './section-list/section-list.component';
 import { SummaryComponent } from './summary/summary.component';
 import { IndexComponent } from './index/index.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 
@@ -23,6 +24,7 @@ import { AppHeaderComponent } from './app-header/app-header.component';
     SummaryComponent,
     SectionListComponent,
     SectionComponent,
+    ProfileComponent,
 
   ],
   providers: [],
