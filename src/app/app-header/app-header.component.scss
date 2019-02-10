@@ -36,6 +36,8 @@ button:hover {
 .sticky{
   color: transparent;
   font-weight: bolder;
+  padding-left: 10px;
+  padding-bottom: 15px;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
 }
@@ -53,6 +55,7 @@ button:hover {
 
   /* Text styles */
   color: white;
+  text-align: left;
 
   /* Background styles */
   background-image: url('../../assets/img/chicago_blue.png');
@@ -62,38 +65,57 @@ button:hover {
   background-attachment: fixed;
 }
 
+.hero-inner{
+  text-align: left;
+  margin-bottom: 7em;
+  margin-right: 57em;
+}
 
 .hero h1{
   /* Text styles */
-  font-size: 5em;
+  font-size: 6em;
+
+  /*Text Outlines*/
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
 
   /* Margins */
-  margin-top: 0;
-  margin-bottom: 0.5em;
+
 }
+
+.hero h2{
+  color: transparent;
+  font-size: 3em;
+  -webkit-text-stroke-width: 4.5px;
+  -webkit-text-stroke-color: white;
+}
+
 
 .hero .btn {
   /* Positioning and sizing */
   display: block;
   width: 200px;
 
-  background-color: white;
+  background-color: transparent;
 
   /* Padding and margins */
   padding: 1em;
   margin-top: 50px;
-  margin-left: auto;
   margin-right: auto;
 
   /* Text styles */
-  color: black; /* CHANGE THIS LINE */
+  color: white;
   text-decoration: none;
   font-size: 1.5em;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 
   /* Border styles */
   border: 3px solid white; /* CHANGE THIS LINE */
   border-radius: 20px;
 }
+
 
 .github-white{
   background-image: url('../../assets/img/github-white.png');
@@ -113,24 +135,20 @@ button:hover {
 
 
 .header{
-  //position: absolute;
   z-index: -999999;
   top: 0;
-  //transition: top 0.5s ease-in-out;
   width: 100%;
 }
 
 .header-sticky {
   top: 0;
-  //transition: top 0.2s ease-in-out;
   width: 100%;
-  //transform: translateY(-450px)
 }
 
 
 button{
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   border-style: none;
   background-color: transparent;
   background-size: 100%;
@@ -139,8 +157,8 @@ button{
 
 @media only screen and (max-width: 640px){
   button{
-    height: 25px;
-    width: 25px;
+    height: 40px;
+    width: 40px;
     border-style: none;
     background-color: transparent;
     background-size: 100%;
@@ -150,11 +168,11 @@ button{
 
 @media only screen and (max-width: 400px){
   button{
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     border-style: none;
     background-color: transparent;
     background-size: 100%;
-    margin: 1px;
+    margin: 3px;
   }
 }

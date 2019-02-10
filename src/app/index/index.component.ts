@@ -15,7 +15,7 @@ export class IndexComponent implements OnInit {
     {text: 'Resume', id: 'resume', image: 'url("../../assets/img/work.jpg")'},
   ];
   public summary = 'About Me';
-  public header = {name: 'index', element: '<hr style="border: white">'};
+  public header = {name: 'index', element: ''};
 
   ngOnInit() {
   }
