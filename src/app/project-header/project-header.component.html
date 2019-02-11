@@ -1,0 +1,34 @@
+<table class="table-header">
+  <td>
+    <img [src]=project.img class="img-fluid">
+  </td>
+  <td class="column header desktop">
+    <tr>
+      <h1>{{ project.name }}</h1>
+    </tr>
+    <tr>
+      <h5>{{ project.roles }}</h5>
+    </tr>
+    <tr>
+      <p>{{ project.description }}</p>
+    </tr>
+    <tr>
+      <a [href]=project.link>{{ project.link }}</a>
+    </tr>
+  </td>
+  <tr class="row mobile">
+    <td class="column header mobile">
+  <tr>
+    <h1>{{ project.name }}</h1>
+  </tr>
+  <tr>
+    <h5>{{ project.roles }}</h5>
+  </tr>
+  <tr>
+    <p>{{ project.description }}</p>
+  </tr>
+  <tr>
+    <a [href]=project.link>{{ project.link }}</a>
+  </tr>
+  </td>
+</table>

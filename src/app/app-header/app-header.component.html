@@ -4,9 +4,11 @@
     <tr>
       <td width="50%">
         <a id="navbar-brand" class="navbar-brand" href="#">JB</a>
-        <a href="">About Me</a>
-        <a [routerLink]="['../resume']">Resume</a>
-        <a href="">Projects</a>
+      </td>
+      <td>
+        <button  routerLink="/{{ section.id }}" [style.background-image]=section.image class="section-button" id="{{ section.id }}">{{ section.text }}</button>b
+        <button  routerLink="/{{ section.id }}" [style.background-image]=section.image class="section-button" id="{{ section.id }}">{{ section.text }}</button>
+        <button  routerLink="/{{ section.id }}" [style.background-image]=section.image class="section-button" id="{{ section.id }}">{{ section.text }}</button>
         <div class="dropdown">
           <button class="dropbtn">Social Media</button>
           <div class="dropdown-content">
