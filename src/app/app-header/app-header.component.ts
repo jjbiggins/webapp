@@ -25,6 +25,8 @@ export class AppHeaderComponent implements OnInit {
     const navbartext = document.getElementById('navbar-brand');
     const github = document.getElementById('github');
     const linkedin = document.getElementById('linkedin');
+    const email = document.getElementById('email');
+    const phone = document.getElementById('phone');
     const verticalOffset = window.pageYOffset
       || document.getElementById('header').scrollTop
       || document.body.scrollTop || 0;
@@ -36,6 +38,8 @@ export class AppHeaderComponent implements OnInit {
       navbartext.className = 'navbar-brand sticky';
       github.className = 'github';
       linkedin.className = 'linkedin';
+      email.className = 'email';
+      phone.className = 'phone';
       console.log(this.currPos);
       document.body.setAttribute('style', 'padding-top: 0px;');
     } else if (this.currPos < this.changePos && verticalOffset <= (hero.offsetHeight)) {

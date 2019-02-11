@@ -1,0 +1,47 @@
+.pdf-resume{
+  display: inline-block;
+  width: 80%;
+  max-height: 900px;
+  min-height: 700px;
+  height: auto;
+}
+
+.img-fluid{
+  display:none;
+}
+
+.container-fluid{
+  padding: 80px 0 0 0;
+}
+
+@media only screen and (max-width: 640px){
+  .pdf-resume{
+    display: inline-block;
+    width: 85%;
+    max-height: 550px;
+    min-height: 500px;
+    height: auto;
+  }
+
+  .img-fluid{
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .pdf-resume{
+    display: none;
+    width: 85%;
+    max-height: 500px;
+    min-height: 420px;
+    height: auto;
+  }
+
+  .img-fluid{
+    display: flex;
+    width: 85%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}

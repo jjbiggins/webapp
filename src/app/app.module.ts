@@ -8,7 +8,7 @@ import { SectionListComponent } from './section-list/section-list.component';
 import { SummaryComponent } from './summary/summary.component';
 import { IndexComponent } from './index/index.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
-import { ProfileComponent } from './profile/profile.component';
+import { ResumeComponent } from './resume/resume.component';
 
 
 
@@ -24,8 +24,7 @@ import { ProfileComponent } from './profile/profile.component';
     SummaryComponent,
     SectionListComponent,
     SectionComponent,
-    ProfileComponent,
-
+    ResumeComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
