@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResumeComponent implements OnInit {
   public summary = 'Resume';
-  public header = {name: 'resume', element: ''};
+  public pageheader = {name: 'resume', element: ''};
   constructor() { }
 
   ngOnInit() {

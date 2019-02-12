@@ -115,16 +115,16 @@
 }
 
 .navbar-sticky .dropdown-content a {
-    color: white;
+  color: white;
 
-    padding: 14px 16px;
-    text-decoration: none;
+  padding: 14px 16px;
+  text-decoration: none;
 
-    background-color: transparent;
-    font-weight: lighter;
-    font-family: "Lato Hairline";
+  background-color: transparent;
+  font-weight: lighter;
+  font-family: "Lato Hairline";
 
-    display: block;
+  display: block;
 }
 
 .navbar-sticky a:hover {
@@ -176,7 +176,7 @@ button:hover {
 .hero {
   /* Sizing */
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
 
   /* Flexbox stuff */
   display: flex;
@@ -190,7 +190,7 @@ button:hover {
   font-family: "Lato Hairline";
 
   /* Background styles */
-  background-image: url('../../assets/img/chi.jpg');
+  background-image: url("../../assets/img/chi.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -199,48 +199,14 @@ button:hover {
 
 .hero_text{
   align-self: center;
-  margin-top: 25em;
-  margin-right: 0em;
 }
 
 .hero h1{
   /* Text styles */
-  font-size: 4em;
+  font-size: 5em;
   font-weight: lighter;
   font-family: "Lato Hairline";
 
-}
-
-.hero h2{
-  color: white;
-  font-size: 2em;
-  font-weight: lighter;
-  font-family: "Lato Hairline";
-}
-
-.hero .btn {
-  /* Positioning and sizing */
-  display: block;
-  width: 200px;
-
-  background-color: transparent;
-
-  /* Padding and margins */
-  padding: 1em;
-  margin-top: 50px;
-  margin-right: auto;
-
-  /* Text styles */
-  color: white;
-  text-decoration: none;
-  font-size: 1.5em;
-
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-
-  /* Border styles */
-  border: 5px solid white; /* CHANGE THIS LINE */
-  border-radius: 20px;
 }
 
 
@@ -315,17 +281,16 @@ button:hover {
 
 
 ///////////////////////////////////////////////
-//        Header
+//        pageheader
 //////////////////////////////////////////////
-.header{
+.pageheader{
   z-index: -999999;
   top: 0;
-  width: 100vw;
+  width: 100%;
 }
 
-
-.header-sticky {
-  top: 0px;
+.pageheader-sticky {
+  top: 0;
   width: 100vw;
 }
 

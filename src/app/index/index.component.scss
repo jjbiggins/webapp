@@ -1,3 +1,4 @@
+
 .container-fluid{
   padding: 0;
 }
@@ -7,24 +8,12 @@ app-section-list{
 }
 
 p{
-  color: white;
+  width: 70%;
+  display: inline-block;
 
+  color: white;
   font-family: "Lato Hairline";
   font-size: 1em;
-
-  display: inline-block;
 }
 
-h2{
-  width: 40%;
-  margin-top: 5em;
-  margin-left: 30%;
-  margin-right: 30%;
 
-  text-align: center;
-  color: white;
-
-  font-family: "Lato Hairline";
-  font-weight: normal;
-  font-size: 1.5em;
-}

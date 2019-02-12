@@ -25,10 +25,6 @@ button:hover {
   color: black;
   margin: 15px; }
 
-.img-fluid {
-  align-self: center;
-  padding: 0;
-  padding-bottom: 10px; }
 
 .github-white{
   background-image: url('/../../../jjbiggins/git/webapp/src/assets/img/GitHub-Mark-Light-64px.png');

@@ -9,17 +9,12 @@ import { SummaryComponent } from './summary/summary.component';
 import { IndexComponent } from './index/index.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { ResumeComponent } from './resume/resume.component';
-import { ProfileComponent } from './profile/profile.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { ProjectHeaderComponent } from './project-header/project-header.component';
+import { PageHeaderComponent } from './page-header/page-header.component';
+import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 
 
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
   declarations: [
     AppComponent,
     AppHeaderComponent,
@@ -28,12 +23,14 @@ import { ProjectHeaderComponent } from './project-header/project-header.componen
     SectionListComponent,
     SectionComponent,
     ResumeComponent,
-    ProfileComponent,
-    ProjectsComponent,
-    ProjectHeaderComponent,
+    PageHeaderComponent,
+    AppNavbarComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-
 export class AppModule { }

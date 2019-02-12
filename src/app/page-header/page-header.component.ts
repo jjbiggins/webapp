@@ -1,27 +1,26 @@
 import {Component, HostListener, Input, OnInit} from '@angular/core';
-import {element} from 'protractor';
+
 
 @Component({
-  selector: 'app-app-header',
-  templateUrl: './app-header.component.html',
-  styleUrls: ['./app-header.component.scss']
+  selector: 'app-page-header',
+  templateUrl: './page-header.component.html',
+  styleUrls: ['./page-header.component.scss']
 })
-export class AppHeaderComponent implements OnInit {
-  @Input() header: any;
+export class PageHeaderComponent implements OnInit {
+  @Input() pageheader: any;
   currPos: Number = 0;
   changePos: Number = 0;
   constructor() { }
 
   ngOnInit() {
-    const header = document.getElementById('header');
-    header.innerHTML = this.header.element;
+    const pageheader = document.getElementById('pageheader');
+    pageheader.innerHTML = this.pageheader.element;
   }
   @HostListener('window:scroll', []) onScroll() {
     // do some stuff here when the window is scrolled
     document.body.removeAttribute('style');
-    const header = document.getElementById('header');
+    const pageheader = document.getElementById('pageheader');
     const hero = document.getElementById('hero');
-    const hero_text = document.getElementById('hero-inner');
     const navbar = document.getElementById('navbar');
     const navbartext = document.getElementById('navbar-brand');
     const github = document.getElementById('github');
@@ -29,11 +28,11 @@ export class AppHeaderComponent implements OnInit {
     const email = document.getElementById('email');
     const phone = document.getElementById('phone');
     const verticalOffset = window.pageYOffset
-      || document.getElementById('header').scrollTop
+      || document.getElementById('pageheader').scrollTop
       || document.body.scrollTop || 0;
     this.currPos = verticalOffset;
-    if (this.currPos > this.changePos && verticalOffset > (hero.offsetHeight * 0.5)) {
-      header.className = 'header-sticky';
+    if (this.currPos > this.changePos && verticalOffset > (hero.offsetHeight)) {
+      pageheader.className = 'pageheader-sticky';
       hero.className = 'hero';
       navbar.className = 'navbar-sticky navbar-expand-md fixed-top';
       navbartext.className = 'navbar-brand sticky';
@@ -43,8 +42,8 @@ export class AppHeaderComponent implements OnInit {
       phone.className = 'phone';
       console.log(this.currPos);
       document.body.setAttribute('style', 'padding-top: 0px;');
-    } else if (this.currPos < this.changePos && verticalOffset <= (hero.offsetHeight * 0.5)) {
-      header.className = 'header';
+    } else if (this.currPos < this.changePos && verticalOffset <= (hero.offsetHeight)) {
+      pageheader.className = 'pageheader';
       hero.className = 'hero';
       navbar.className = 'navbar navbar-expand-md fixed-top';
       navbartext.className = 'navbar-brand';
