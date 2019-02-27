@@ -6,13 +6,12 @@
   padding: 12px 16px;
 
   color: white;
-  font-family: "DejaVu Sans Light";
-  font-size: 4em;
+  font-family: Lato, sans-serif;
 }
 
 
 .navbar{
-  height: 140px;
+  height: 10vh;
 
   z-index: 75;
   background-color: transparent;
@@ -26,9 +25,9 @@
   padding: 14px 16px;
   text-decoration: none;
 
-  font-size: 1.5em;
+  font-size: 3vw;
   font-weight: lighter;
-  font-family: "Lato Hairline";
+  font-family: "Lato", sans-serif;
 }
 .navbar-sticky .dropbtn {
   width: auto;
@@ -41,7 +40,7 @@
   text-align: center;
   font-size: 1.5em;
   font-weight: lighter;
-  font-family: "Lato Hairline";
+  font-family: "Lato", sans-serif;
 
   border: none;
 }
@@ -57,9 +56,9 @@
   padding: 12px 16px;
 
   text-align: center;
-  font-size: 1.5em;
+  font-size: 3vw;
   font-weight: lighter;
-  font-family: "Lato Hairline";
+  font-family: "Lato", sans-serif;
 
   border: none;
 }
@@ -150,7 +149,7 @@ button:hover {
 //        Dropdown
 //////////////////////////////////////////////
 .dropdown {
-  float: left;
+  float: right;
   display: inline-block;
 }
 
@@ -205,7 +204,7 @@ button:hover {
 
 .hero h1{
   /* Text styles */
-  font-size: 5;
+  font-size: 4vw;
   font-weight: lighter;
   font-family: "Lato Hairline";
 
@@ -213,7 +212,7 @@ button:hover {
 
 .hero h2{
   color: white;
-  font-size: 2em;
+  font-size: 3vw;
   font-weight: lighter;
   font-family: "Lato Hairline";
 }

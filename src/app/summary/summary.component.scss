@@ -1,25 +1,52 @@
-.summary-text{
-  color: white;
-  font-family: "Helvetica Neue";
-  font-size: 20px;
-  text-align: center;
+h2 {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 2.5vw;
+
+  text-align: left;
   word-wrap: break-word;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3vw;
+  margin-right: 25px;
+}
+
+h1{
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 45vw;
+
+  text-align: left;
+  word-wrap: break-word;
+
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 40px;
-  margin-left: 40px;
 }
 
 .summary-block{
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 15px;
-  //border-color: #82c6d1;
-  border-color: white;
-  border-style: solid;
-  border-radius: 10px;
-  background-color: black;
-  display: inline-block;
-  width: auto;
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: inline-flex;
+  justify-content: left;
+  align-items: center;
+
+  /* Text styles */
+  color: white;
+  text-align: center;
+  text-emphasis: white;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+
+  /* Background styles */
+  background-image: url("../../assets/img/plain-white-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
