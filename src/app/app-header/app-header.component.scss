@@ -25,7 +25,7 @@
   padding: 14px 16px;
   text-decoration: none;
 
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: lighter;
   font-family: "Lato", sans-serif;
 }
@@ -56,7 +56,7 @@
   padding: 12px 16px;
 
   text-align: center;
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: lighter;
   font-family: "Lato", sans-serif;
 
@@ -186,10 +186,10 @@ button:hover {
   color: white;
   text-align: center;
   font-weight: lighter;
-  font-family: "Lato Hairline";
+  font-family: "Lato",  sans-serif;
 
   /* Background styles */
-  background-image: url('../../assets/img/chi.jpg');
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/img/chi.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -206,7 +206,7 @@ button:hover {
   /* Text styles */
   font-size: 4vw;
   font-weight: lighter;
-  font-family: "Lato Hairline";
+  font-family: "Lato", sans-serif;
 
 }
 
@@ -214,7 +214,7 @@ button:hover {
   color: white;
   font-size: 3vw;
   font-weight: lighter;
-  font-family: "Lato Hairline";
+  font-family: "Lato", sans-serif;
 }
 
 .hero .btn {
