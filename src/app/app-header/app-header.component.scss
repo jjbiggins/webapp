@@ -83,7 +83,7 @@
 
   background-color: transparent;
   font-weight: lighter;
-  font-family: "Lato Hairline";
+  font-family: "Lato", sans-serif;
 
   display: block;
 }
@@ -110,7 +110,7 @@
 
   font-size: 1.5em;
   font-weight: lighter;
-  font-family: "Lato Hairline";
+  font-family: "Lato", sans-serif;
 }
 
 .navbar-sticky .dropdown-content a {
@@ -121,7 +121,7 @@
 
     background-color: transparent;
     font-weight: lighter;
-    font-family: "Lato Hairline";
+    font-family: "Lato", sans-serif;
 
     display: block;
 }
@@ -186,31 +186,31 @@ button:hover {
   color: white;
   text-align: center;
   font-weight: lighter;
-  font-family: "Lato",  sans-serif;
+  font-family: "Lato Thin",  sans-serif;
 
   /* Background styles */
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/img/chi.jpg');
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../assets/img/chi-skyline.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.hero_text{
+.hero_text {
   align-self: center;
   margin-top: 25em;
   margin-right: 0em;
 }
 
-.hero h1{
+.hero h1 {
   /* Text styles */
   font-size: 4vw;
   font-weight: lighter;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato Thin", sans-serif;
 
 }
 
-.hero h2{
+.hero h2 {
   color: white;
   font-size: 3vw;
   font-weight: lighter;
@@ -251,8 +251,8 @@ button:hover {
   height: auto;
   text-align: right;
 
-  font-weight: normal;
-  font-family: "Lato Hairline";
+  font-weight: lighter;
+  font-family: "Lato", sans-serif;
   font-size: 1em;
   color: white;
 }
@@ -262,8 +262,8 @@ button:hover {
   height: auto;
   text-align: right;
 
-  font-weight: normal;
-  font-family: "Lato Hairline";
+  font-weight: lighter;
+  font-family: "Lato", sans-serif;
   font-size: 1em;
   color: white;
 }
@@ -273,8 +273,8 @@ button:hover {
   height: auto;
   text-align: right;
 
-  font-weight: normal;
-  font-family: "Lato Hairline";
+  font-weight: lighter;
+  font-family: "Lato", sans-serif;
   font-size: 1em;
   color: white;
 }
@@ -284,8 +284,8 @@ button:hover {
   height: auto;
   text-align: right;
 
-  font-weight: normal;
-  font-family: "Lato Hairline";
+  font-weight: lighter;
+  font-family: "Lato", sans-serif;
   font-size: 1em;
   color: white;
 }
@@ -295,8 +295,8 @@ button:hover {
   height: auto;
   text-align: right;
 
-  font-weight: normal;
-  font-family: "Lato Hairline";
+  font-weight: lighter;
+  font-family: "Lato", sans-serif;
   font-size: 1em;
   color: white;
 }
@@ -307,7 +307,7 @@ button:hover {
   text-align: right;
 
   font-weight: normal;
-  font-family: "Lato Hairline";
+  font-family: "Lato", sans-serif;
   font-size: 1em;
   color: white;
 }
