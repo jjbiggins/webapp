@@ -1,12 +1,11 @@
-@import "/../node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 body {
-  font-family: "Lato Hairline";
+  font-family: 'Lato', sans-serif;
   background-color: black;
   margin: 0;
   padding: 0;
   bottom: 0;
-  overflow: scroll;
 }
 
 html {
