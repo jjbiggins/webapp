@@ -12,7 +12,6 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-devkit/build-angular": "^0.13.9",
     "@angular/animations": "^7.2.15",
     "@angular/common": "^7.2.15",
     "@angular/compiler": "^7.2.15",
@@ -32,6 +31,7 @@
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^0.13.9",
     "@angular/cli": "^8.3.6",
     "@angular/compiler-cli": "^7.2.15",
     "@angular/language-service": "^7.2.15",
